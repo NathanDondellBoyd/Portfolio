@@ -103,6 +103,36 @@ nav{
     transform: translateX(0%);
 }
 
+a,
+i {
+     cursor: pointer;
+     
+     
+
+ }
+
+ #projects{
+    padding: 2em 1em 1em;
+
+}
+
+#prjects ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#projects li{
+    margin-bottom: 1em;
+    background: #fff;
+    color: darkblue;
+}
+.card-content{
+    padding: 1.5em;
+}
+
+
 /* Desktop*/
 @media screen and (min-width:912px) {
     body{
@@ -152,5 +182,7 @@ nav{
  .burger{
      display: none;
  }
+
+ 
  
 }
